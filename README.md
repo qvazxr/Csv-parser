@@ -1,4 +1,4 @@
-# CSV User Importer Service
+# CSV User Importer Service (это было задание на интенсиве от SHIFT)
 
 Веб-сервис на Spring Boot, предназначенный для автоматической обработки, парсинга и сохранения данных пользователей из CSV-файлов в базу данных PostgreSQL.
 
