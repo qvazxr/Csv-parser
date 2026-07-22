@@ -1,9 +1,19 @@
-# java backend
+# CSV User Importer Service
 
-[Расписание](documentation/schedule.md)
+Веб-сервис на Spring Boot, предназначенный для автоматической обработки, парсинга и сохранения данных пользователей из CSV-файлов в базу данных PostgreSQL.
 
-[Инструкции по работе с ПО](documentation/instructions.md)
+## Технологический стек
 
-[Задание](documentation/backend%20task.md)
+* Java 17
+* Framework: Spring Boot 3.x (Spring Web, Spring Data JPA)
+* Database: PostgreSQL
+* ORM: Hibernate
+* Database Management: pgAdmin 4
+* Containerization: Docker
+* Build Tool: Gradle
 
-[Кураторы](documentation/curators.md)
+## Основные возможности
+
+* Парсинг CSV: Чтение и обработка структуры CSV-файлов с проверкой типов данных и кодировок (UTF-8).
+* Автоматическое окружение: Автоматический запуск контейнеров PostgreSQL и pgAdmin при старте приложения через docker-compose.yml.
+* Сохранение данных: Валидация и запись сущностей в БД с использованием JPA/Hibernate.
